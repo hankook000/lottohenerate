@@ -13,7 +13,7 @@ public class Main {
             
                 while(generated.size() <6) {
                     int num = random.nextInt(45) + 1;
-                    //**/
+                    ////
                     if(!contains(generated, num)) {
                         result[index++] = num; generated.add(num);
                     }
